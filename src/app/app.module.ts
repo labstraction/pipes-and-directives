@@ -9,6 +9,7 @@ import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
 import { ToAgePipe } from './pipes/to-age/to-age.pipe';
 import { EllipsisPipe } from './pipes/ellipsis/ellipsis.pipe';
 import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
+import { UnlessDirective } from './directives/unless/unless.directive';
 
 
 
@@ -20,7 +21,8 @@ import { SpecialButtonDirective } from './directives/special-button/special-butt
     FirstUpperPipe,
     ToAgePipe,
     EllipsisPipe,
-    SpecialButtonDirective
+    SpecialButtonDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
